@@ -1,4 +1,4 @@
 [build]
   publish = "out"
   command = "export NODE_OPTIONS=--openssl-legacy-provider"
-  command = "yarn build"
+
