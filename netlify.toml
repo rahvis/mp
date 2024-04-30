@@ -1,5 +1,3 @@
 [build]
-  publish = "out"
   command = "export NODE_OPTIONS=--openssl-legacy-provider && yarn build"
-
-
+  publish = ".next"  # Updated publish directory
