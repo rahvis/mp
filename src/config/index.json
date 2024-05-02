@@ -24,7 +24,9 @@
   ],
   "callToAction": {
     "text": "Join Waitlist",
-    "href": "https://forms.gle/5pXe3ZNoxyuVywfSA"
+    "href": "https://forms.gle/5pXe3ZNoxyuVywfSA",
+    "target": "_blank",
+    "rel": "noreferrer"
   },
   "mainHero": {
     "title": "",
@@ -35,7 +37,7 @@
       "text": "Join Waitlist",
       "href": "https://forms.gle/5pXe3ZNoxyuVywfSA",
       "target": "_blank",
-      "rel": "noopener noreferrer"
+      "rel": "noreferrer" 
     },
     "secondaryAction": {
       "text": "",
@@ -58,9 +60,9 @@
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "",
+    "subtitle": " How are the stakeholders feeling about us? ",
+    "description": "We conducted extensive research and talked to numerous college athletes and mindfulness coaches to understand their needs and preferences. Here's what we discovered:    ",
     "items": [
       {
         "name": "React.js",
