@@ -23,35 +23,37 @@
     }
   ],
   "callToAction": {
-    "text": "Get started",
-    "href": "#"
+    "text": "Join Waitlist",
+    "href": "https://forms.gle/5pXe3ZNoxyuVywfSA"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "",
+    "subtitle": "Are you a student athlete?",
+    "description": "Struggling with performance anxiety, low confidence, or stress that holds you back from reaching your full potential?",
+    "img": "/assets/images/iStock-1253661603.jpg",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Join Waitlist",
+      "href": "https://forms.gle/5pXe3ZNoxyuVywfSA",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "",
+      "href": ""
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Are you one of these?",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Student Athlete",
+        "description": "Student-athletes want to work with coaches who understand their unique challenges and can help them overcome mental barriers to achieve success, but finding that perfect match has been difficult.", 
+        "img": "/assets/images/iStock-1223619342.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Mindfulness Coach",
+        "description": "MindfulPerformance is the ultimate app/software for mindfulness coaches, offering a streamlined path to expand their clientele and make a meaningful impact in their coaching business.",
+        "img": "/assets/images/iStock-1366052585.jpg"
       }
     ]
   },
@@ -124,30 +126,29 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "instagram": "https://www.instagram.com/get.mindfulperformance",
+      "linkedin": "https://www.linkedin.com/company/getmindfulperformance"
     }
   }
 }
