@@ -18,8 +18,8 @@ module.exports = {
     extend: {
       colors: {
         mindfulpur: '#2b8ed0',
-        mindful: '#123B5e',
-        primary: '#583c54',
+        mindful: '#583c54',
+        primary: '#123B5e',
         secondary: '#a12c34',
         tertiary: '#99a0a3',
         border: '#1a2e35',
