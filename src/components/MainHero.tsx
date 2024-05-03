@@ -1,5 +1,4 @@
 import React from 'react';
-
 import config from '../config/index.json';
 
 const MainHero = () => {
@@ -13,19 +12,19 @@ const MainHero = () => {
             {mainHero.subtitle}
           </span>
         </h1>
-        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-          {mainHero.description}
-        </p>
+        <p className="mt-3 text-lg text-gray-500 leading-relaxed sm:mt-5 sm:text-xl md:mt-5 md:text-1xl lg:text-xl xl:text-2xl max-w-xs">
+  {mainHero.description}
+</p>
+
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-mindful hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.primaryAction.text}
             </a>
           </div>
-         
         </div>
       </div>
     </main>

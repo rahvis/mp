@@ -41,26 +41,6 @@
     }
   
   },
-  "product": {
-    "title": "MindfulPerformance Accurately Matches Student-Athletes with Certified Mindfulness Coaches.    ",
-    "items": [
-      {
-        "title": "Student Athlete",
-        "description": "Student-athletes want to work with coaches who understand their unique challenges and can help them overcome mental barriers to achieve success, but finding that perfect match has been difficult.", 
-        "img": "/assets/images/iStock-1223619342.jpg"
-      },
-      {
-        "title": "Mindfulness Coach",
-        "description": "This is the only app mindfullnes coaches will need for their coaching business offering a streamlined path to expand their clientele and make a meaningful impact.",
-        "img": "/assets/images/iStock-1366052585.jpg"
-      }
-    ]
-  },
-  "features": {
-    "title": " 4/4 Mindfulness Coaches and  5/8 Student Athletes surveyed expressed a keen interest in joining MindfulPerformance.\n",
-    "items": [
-    ]
-  },
   "about": {
     "sections": [
       {
@@ -79,7 +59,7 @@
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "",
+        "name": "        ",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
