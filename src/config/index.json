@@ -23,14 +23,14 @@
     }
   ],
   "callToAction": {
-    "text": "Join Waitlist",
-    "href": "https://forms.gle/5pXe3ZNoxyuVywfSA",
-    "target": "_blank",
-    "rel": "noreferrer"
+    "text": "",
+    "href": "",
+    "target": "",
+    "rel": ""
   },
   "mainHero": {
     "title": "",
-    "subtitle": "Are you a student athlete?",
+    "subtitle": "Are You a Student Athlete?",
     "description": "Struggling with performance anxiety, low confidence, or stress that holds you back from reaching your full potential?",
     "img": "/assets/images/iStock-1253661603.jpg",
     "primaryAction": {
@@ -38,11 +38,8 @@
       "href": "https://forms.gle/5pXe3ZNoxyuVywfSA",
       "target": "_blank",
       "rel": "noreferrer" 
-    },
-    "secondaryAction": {
-      "text": "",
-      "href": ""
     }
+  
   },
   "product": {
     "title": "MindfulPerformance Accurately Matches Student-Athletes with Certified Mindfulness Coaches.    ",
