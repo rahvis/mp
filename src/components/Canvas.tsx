@@ -7,13 +7,17 @@ import Wave from './Wave';
 const Canvas: FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const { width } = useResponsiveSize();
-  const [context, setContext] = useState<
-    CanvasRenderingContext2D | undefined
-  >();
+  const [context, setContext] = useState<CanvasRenderingContext2D | undefined>();
 
   useEffect(() => {
-    const ctx = canvasRef?.current?.getContext('2d');
-    if (ctx) setContext(ctx);
+    const canvas = canvasRef.current;
+    const ctx = canvas?.getContext('2d');
+    if (ctx) {
+      // Set the color here
+      ctx.fillStyle = 'blue'; // Set the fill color to red
+      // ctx.strokeStyle = 'blue'; // Set the stroke color to blue
+      setContext(ctx);
+    }
   }, []);
 
   return (
