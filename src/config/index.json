@@ -3,70 +3,141 @@
     "name": "Mindful Performance",
     "logo": "/assets/images/logo.png"
   },
-  "navigation": [
-    {
-      "name": "",
-      "href": "product"
-    },
-    {
-      "name": "",
-      "href": "features"
-    },
-
-    {
-      "name": "",
-      "href": "pricing"
-    },
-    {
-      "name": "",
-      "href": "about"
-    }
-  ],
-  "callToAction": {
-    "text": "",
-    "href": "",
-    "target": "",
-    "rel": ""
-  },
   "mainHero": {
-    "title": "",
-    "subtitle": "Are You a Student Athlete?",
-    "description": "Struggling with performance anxiety, low confidence, or stress that holds you back from reaching your full potential?",
-    "img": "/assets/images/iStock-1253661603.jpg",
+    "title": "Are you a student athlete or a mindful coach?",
+    "description": "MindfulPerformance accurately matches student-athletes with certified mindfulness coaches.",
+    "img": "/assets/images/happyTeam.jpg",
     "primaryAction": {
-      "text": "Join Waitlist",
-      "href": "https://forms.gle/5pXe3ZNoxyuVywfSA",
-      "target": "_blank",
-      "rel": "noreferrer" 
+      "text": "Subscribe",
+      "href": "#"
     }
-  
+  },
+  "product": {
+    "title": "Mindful Performance",
+    "items": [
+      {
+        "title": "For Student Athletes",
+        "description": "Who are struggling with performance anxiety, low confidence, and stress that holds them back from reaching their full potential.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "For Mindful Coaches",
+        "description": "Who are looking to streamline their path to expanding their clientele and scaling their coaching.",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Don't just take our word for it! See what student-athletes and mindfulness coaches are saying about Mindful Performance.",
+    "subtitle": "We conducted extensive research and talked to numerous college athletes and mindfulness coaches to understand their needs and preferences. Here's what we discovered:",
+    "items": [
+      {
+        "title": "Student-Athletes",
+        "description": "8/10 of student-athletes expressed a strong need for access to flexible and convenient mindfulness coaching sessions",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Mindfulness Coaches",
+        "description": "9/10 mindfulness coaches surveyed expressed a keen interest in joining Mindful Performance.",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "atheletefeatures": {
+    "subtitle": "How does it Benefit the Student Athlete?",
+    "description": "For student-athletes striving for excellence in all aspects of life, Mindful Performance offers expert mindfulness coaching with flexible, on-demand, personalized guidance to help you:",
+    "items": [
+      {
+        "name": "Manage Stress",
+        "description": "Manage stress and anxiety to perform at your best under pressure with unwavering confidence.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Build Resilience",
+        "description": "Develop unshakable resilience to bounce back stronger from setbacks.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Focus",
+        "description": "Master your mindset to stay focused, driven, and in control.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Achieve Greatness",
+        "description": "Cultivate a champion's mentality to embrace challenges and achieve greatness.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "coachfeatures": {
+    "subtitle": "How does it Benefit the Mindful Coaches?",
+    "description": "For mindfulness coaches, MindfulPerformance offers a streamlined path to expanding clientele and making a meaningful impact by helping you with.",
+    "items": [
+      {
+        "name": "Expand Reach",
+        "description": "Effortlessly connect with and expand your clientele through our one-stop client hub.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Grow Business",
+        "description": "Leverage analytics to assess session impacts and strategically grow your business.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "CRM Tools",
+        "description": "Streamline client management with our specialized CRM tools.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Enhance Sessions",
+        "description": "Enhance your sessions with our private and secure client journaling feature.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
   },
   "about": {
-    "sections": [
-      {
-        "name": "",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "        ",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      }
-    ],
     "socialMedia": {
-      "instagram": "https://www.instagram.com/get.mindfulperformance",
-      "linkedin": "https://www.linkedin.com/company/getmindfulperformance"
+      "linkedin": "https://www.linkedin.com/company/getmindfulperformance/",
+      "instagram": "https://www.instagram.com/get.mindfulperformance"
     }
   }
 }

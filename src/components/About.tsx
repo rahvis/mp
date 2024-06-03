@@ -3,30 +3,36 @@ import React from 'react';
 import config from '../config/index.json';
 
 const About = () => {
-  const {about } = config;
-  const { socialMedia, sections } = about;
+  const { company, about } = config;
+  const { logo, name: companyName } = company;
+  const { socialMedia } = about;
 
   return (
     <div
       id="about"
-      className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-10 py-5"
+      className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
     >
       <div className="flex flex-col items-center justify-center">
         <div>
+          <img src={logo} alt={companyName} className="w-30 h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-5">
-          {sections.map((section, index) => (
-            <a
-              key={`${section.name}-${index}`}
-              href={section.href}
-              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
+        <div className="flex items-center gap-x-8 mt-6 h-8">
+          <a
+            aria-label="instagram"
+            href={socialMedia.instagram}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg
+              className="fill-current text-gray-800 dark:text-white hover:text-primary"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
             >
-              {section.name}
-            </a>
-          ))}
-        </div>
-        <div className="flex items-center gap-x-14 h-0">
-         
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
           <a
             aria-label="linkedin"
             href={socialMedia.linkedin}
@@ -43,28 +49,11 @@ const About = () => {
               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
             </svg>
           </a>
-          <a
-            aria-label="instagram"
-            href={socialMedia.instagram}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 448 512"
-    fill="currentColor" // For the fill color, it will take the current color.
-    className="hover:text-primary" // Add any classes you like for the hover effect.
-  >
-    <path d="M224.1 141c-63.6 0-115.1 51.5-115.1 115.1S160.5 371.2 224.1 371.2c63.7 0 115.2-51.5 115.2-115.1S287.8 141 224.1 141zm0 190.3c-41.5 0-75.2-33.7-75.2-75.2 0-41.5 33.7-75.2 75.2-75.2 41.5 0 75.2 33.7 75.2 75.2 0 41.5-33.7 75.2-75.2 75.2zm146.4-194.3c0 14.9-12.1 27-27 27-14.9 0-27-12.1-27-27s12.1-27 27-27c14.9 0 27 12.1 27 27zm76.1 27.2c-1.7-35.7-9.9-67.3-35.7-93.1-25.8-25.8-57.4-34-93.1-35.7-36.7-2.1-147.2-2.1-183.9 0-35.7 1.7-67.3 9.9-93.1 35.7-25.8 25.8-34 57.4-35.7 93.1-2.1 36.7-2.1 147.2 0 183.9 1.7 35.7 9.9 67.3 35.7 93.1 25.8 25.8 57.4 34 93.1 35.7 36.7 2.1 147.2 2.1 183.9 0 35.7-1.7 67.3-9.9 93.1-35.7 25.8-25.8 34-57.4 35.7-93.1 2.1-36.7 2.1-147.2 0-183.9zm-48.6 221c-7.8 19.7-22.9 35-42.6 42.6-29.5 11.7-99.5 9-132.9 9s-103.4 2.7-132.9-9c-19.7-7.8-35-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.9s-2.7-103.4 9-132.9c7.8-19.7 22.9-35 42.6-42.6 29.5-11.7 99.5-9 132.9-9s103.4-2.7 132.9 9c19.7 7.8 35 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.9s2.7 103.4-9 132.9z"/>
-  </svg>
-          </a>
         </div>
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
-            &copy; {new Date().getFullYear()} {' '}
-            <a href="" rel="nofollow">
+            &copy; {new Date().getFullYear()} designed by{' '}
+            <a href="localhost:3000" rel="nofollow">
               Mindful Performance
             </a>
           </p>
