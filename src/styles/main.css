@@ -139,3 +139,7 @@ a:hover {
   border-radius: 50%;
   background-color: #3b82f6;
 }
+
+.bg-light-blue {
+  background-color: #e6f7ff;
+}

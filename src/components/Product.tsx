@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import config from '../config/index.json';
 import Divider from './Divider';
+import SubscribeModal from './SubscribeModal';
 
 const Product = () => {
   const { product } = config;
   const [firstItem, secondItem] = product.items;
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <section className={`bg-background py-8`} id="product">
@@ -22,6 +32,18 @@ const Product = () => {
             </span>
           ))}
         </h1>
+        <h3
+          className={`w-full my-2 text-2xl font-bold leading-tight text-center text-primary`}
+        >
+          {product.subtitle.split(' ').map((word, index) => (
+            <span
+              key={index}
+              className={index % 2 ? 'text-primary' : 'text-border'}
+            >
+              {word}{' '}
+            </span>
+          ))}
+        </h3>
         <Divider />
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
@@ -31,6 +53,8 @@ const Product = () => {
               {firstItem?.title}
             </h3>
             <p className={`text-gray-600`}>{firstItem?.description}</p>
+            <br/>
+            <p className={`text-gray-600`}>{firstItem?.signup}</p>
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
@@ -56,10 +80,23 @@ const Product = () => {
                 {secondItem?.title}
               </h3>
               <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
+              <p className={`text-gray-600 mb-8`}>{secondItem?.signup}</p>
             </div>
           </div>
         </div>
       </div>
+      <div className="flex flex-col items-center mt-12 bg-light-blue py-12">
+        <button
+          onClick={openModal}
+          className="bg-blue-500 text-white font-bold py-3 px-8 rounded-md hover:bg-blue-600 mb-6"
+        >
+          Sign me up for the waitlist
+        </button>
+        <p className="text-center text-gray-500">
+          Be among the first to join the MindfulPerformance community and enjoy exclusive benefits, including free trials and early access, when we launch!
+        </p>
+      </div>
+      <SubscribeModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   );
 };

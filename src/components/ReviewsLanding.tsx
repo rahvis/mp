@@ -22,18 +22,6 @@ const Reviews = () => {
             </span>
           ))}
         </h1>
-        <h3
-          className={`w-full my-2 text-3xl font-bold leading-tight text-center text-primary`}
-        >
-          {reviews.subtitle.split(' ').map((word, index) => (
-            <span
-              key={index}
-              className={index % 2 ? 'text-primary' : 'text-border'}
-            >
-              {word}{' '}
-            </span>
-          ))}
-        </h3>
         <Divider />
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>

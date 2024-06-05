@@ -8,21 +8,24 @@
     "description": "MindfulPerformance accurately matches student-athletes with certified mindfulness coaches.",
     "img": "/assets/images/happyTeam.jpg",
     "primaryAction": {
-      "text": "Subscribe",
+      "text": "Sign me up for the waitlist",
       "href": "#"
     }
   },
   "product": {
     "title": "Mindful Performance",
+    "subtitle": "Bridging the gap to peak performance",
     "items": [
       {
-        "title": "For Student Athletes",
-        "description": "Who are struggling with performance anxiety, low confidence, and stress that holds them back from reaching their full potential.",
+        "title": "Student Athletes:",
+        "description": "Ready to master your mindset, overcome performance anxiety, and perform at your best in any situation, every time?",
+        "signup":"Click the button below to sign up for our waitlist to unlock your full potential and get matched with your perfect mindfulness coach for personalized, on-demand mindfulness coaching.",
         "img": "/assets/images/product1.jpg"
       },
       {
-        "title": "For Mindful Coaches",
-        "description": "Who are looking to streamline their path to expanding their clientele and scaling their coaching.",
+        "title": "Mindfulness Coaches:",
+        "description": "Expand your coaching impact while working less.",
+        "signup":"Click the button below to sign up for our waitlist to connect with student athletes who need your expertise, and focus on what you do best - transforming lives through mindfulness coaching.",
         "img": "/assets/images/product2.jpg"
       }
     ]
@@ -83,48 +86,50 @@
     ]
   },
   "atheletefeatures": {
-    "subtitle": "How does it Benefit the Student Athlete?",
-    "description": "For student-athletes striving for excellence in all aspects of life, Mindful Performance offers expert mindfulness coaching with flexible, on-demand, personalized guidance to help you:",
+    "subtitle": "Student-Athletes: Unlock Your Peak Performance",
+    "description": "Mindful Performance connects you with expert mindfulness coaches for personalized, on-demand guidance to:",
+    "desc2": "Achieve excellence in all aspects of your life with Mindful Performance.",
     "items": [
       {
         "name": "Manage Stress",
-        "description": "Manage stress and anxiety to perform at your best under pressure with unwavering confidence.",
+        "description": "Manage stress and anxiety, performing at your best when it counts the most.",
         "icon": "/assets/images/react.png"
       },
       {
         "name": "Build Resilience",
-        "description": "Develop unshakable resilience to bounce back stronger from setbacks.",
+        "description": "Develop resilience, bounce back stronger, and experience more joy.",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
         "name": "Focus",
-        "description": "Master your mindset to stay focused, driven, and in control.",
+        "description": "Master your mindset, live with a champion's mentality, and embrace challenges.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
         "name": "Achieve Greatness",
-        "description": "Cultivate a champion's mentality to embrace challenges and achieve greatness.",
+        "description": "Excel in any situation, every time, both on and off the field.",
         "icon": "/assets/images/ts.png"
       }
     ]
   },
   "coachfeatures": {
-    "subtitle": "How does it Benefit the Mindful Coaches?",
-    "description": "For mindfulness coaches, MindfulPerformance offers a streamlined path to expanding clientele and making a meaningful impact by helping you with.",
+    "subtitle": "Mindfulness Coaches: Streamline, Scale, and Transform Lives",
+    "description": "Mindful Performance is the only all-in-one, AI-powered platform designed to help you scale your business and spend more time transforming lives, not on administrative tasks. We provide everything you need to: ",
+    "desc2": "Focus on what you do best - Coaching - and let Mindful Performance handle the rest.",
     "items": [
       {
         "name": "Expand Reach",
-        "description": "Effortlessly connect with and expand your clientele through our one-stop client hub.",
+        "description": "Expand your reach and effortlessly connect with clients through our one-stop client hub.",
         "icon": "/assets/images/react.png"
       },
       {
         "name": "Grow Business",
-        "description": "Leverage analytics to assess session impacts and strategically grow your business.",
+        "description": "Strategically grow your business using powerful analytics to assess session impacts.",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
         "name": "CRM Tools",
-        "description": "Streamline client management with our specialized CRM tools.",
+        "description": "Streamline client management with our specialized, built-in CRM tools.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
