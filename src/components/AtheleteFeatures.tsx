@@ -43,12 +43,6 @@ const AtheleteFeatures = () => {
           </dl>
         </div>
 
-        <div className="lg:text-center">
-          <p className="mt-5 leading-8 font-extrabold tracking-tight text-gray-700 sm:text-3xl">
-            {desc2}
-          </p>
-        </div>
-
       </div>
     </div>
   );

@@ -4,7 +4,7 @@
     "logo": "/assets/images/logo.png"
   },
   "mainHero": {
-    "title": "Are you a student athlete or a mindful coach?",
+    "title": "Are you a student athlete or a mindfulness coach?",
     "description": "MindfulPerformance accurately matches student-athletes with certified mindfulness coaches.",
     "img": "/assets/images/happyTeam.jpg",
     "primaryAction": {
@@ -36,12 +36,12 @@
     "items": [
       {
         "title": "Student-Athletes",
-        "description": "8/10 of student-athletes expressed a strong need for access to flexible and convenient mindfulness coaching sessions",
+        "description": " 5/8 of student-athletes expressed a strong need for access to flexible and convenient mindfulness coaching sessions.",
         "img": "/assets/images/product1.jpg"
       },
       {
         "title": "Mindfulness Coaches",
-        "description": "9/10 mindfulness coaches surveyed expressed a keen interest in joining Mindful Performance.",
+        "description": "4/4 mindfulness coaches surveyed expressed a keen interest in joining Mindful Performance.",
         "img": "/assets/images/product2.jpg"
       }
     ]

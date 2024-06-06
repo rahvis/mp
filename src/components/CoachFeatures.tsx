@@ -54,17 +54,11 @@ const CoachFeatures = () => {
           </dl>
         </div>
 
-        <div className="lg:text-center">
-          <p className="mt-5 leading-8 font-extrabold tracking-tight text-gray-700 sm:text-3xl">
-            {desc2}
-          </p>
-        </div>
-
       </div>
 
       <div className="flex flex-col items-center mt-12 bg-light-blue py-12">
-        <p className="text-center text-gray-500">
-        Click the button below to sign up for the Waitlist to be among the first to know when we launch and gain exclusive access to special offers!
+        <p className="text-center text-gray-900">
+        Be among the first to join the MindfulPerformance community and enjoy exclusive benefits, including free trials and early access, when we launch!
         </p>
         <button
           onClick={openModal}
