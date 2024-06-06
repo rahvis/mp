@@ -5,7 +5,7 @@ import SubscribeModal from './SubscribeModal';
 
 const CoachFeatures = () => {
   const { coachfeatures } = config;
-  const { subtitle, description, desc2, items: featuresList } = coachfeatures;
+  const { subtitle, description, items: featuresList } = coachfeatures;
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
