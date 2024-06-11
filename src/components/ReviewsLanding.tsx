@@ -26,7 +26,7 @@ const Reviews = () => {
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
             <h3
-              className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
+              className={`text-xl text-gray-800 font-bold`}
             >
               {firstItem?.title}
             </h3>
@@ -51,13 +51,18 @@ const Reviews = () => {
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
             <div className={`align-middle`}>
               <h3
-                className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
+                className={`text-xl text-gray-800 font-bold`}
               >
                 {secondItem?.title}
               </h3>
               <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
             </div>
           </div>
+        </div>
+        <div className="text-center mt-8">
+          <p className="text-2xl font-bold">
+            Sign up now to join the growing community of student-athletes and mindfulness coaches on Mindful Performance!
+          </p>
         </div>
       </div>
     </section>
