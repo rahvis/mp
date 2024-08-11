@@ -46,6 +46,17 @@
       }
     ]
   },
+  "team": {
+    "title": "Our Story ",
+    "subtitle": "We conducted extensive research and talked to numerous college athletes and mindfulness coaches to understand their needs and preferences. Here's what we discovered:",
+    "items": [
+      {
+        "title": "Together we share the passion to transform personal development into a tangible reality through innovative products.",
+        "description": " Approximately 30 percent of student athletes struggle with mental distress.(NCCA)",
+        "img": "/assets/images/team.png"
+      }
+    ]
+  },
   "pricing": {
     "title": "Pricing",
     "items": [

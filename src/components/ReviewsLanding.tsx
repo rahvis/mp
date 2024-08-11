@@ -1,11 +1,23 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 
 import config from '../config/index.json';
 import Divider from './Divider';
+import SubscribeModal from './SubscribeModal';
 
 const Reviews = () => {
   const { reviews } = config;
   const [firstItem, secondItem] = reviews.items;
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
 
   return (
     <section className={`bg-background py-8`} id="product">
@@ -63,8 +75,18 @@ const Reviews = () => {
           <p className="text-2xl font-bold">
             Sign up now to join the growing community of student-athletes and mindfulness coaches on Mindful Performance!
           </p>
+          <div className="flex justify-center mt-8">
+          <button
+            onClick={openModal}
+            className="bg-blue-500 text-white font-bold py-3 px-8 rounded-md hover:bg-blue-600 mb-6"
+          >
+            Sign me up for the waitlist
+          </button>
         </div>
+        </div>
+        
       </div>
+      <SubscribeModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   );
 };
