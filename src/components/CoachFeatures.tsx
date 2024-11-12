@@ -64,7 +64,7 @@ const CoachFeatures = () => {
           onClick={openModal}
           className="mt-4 bg-blue-500 text-white font-bold py-3 px-8 rounded-md hover:bg-blue-600 mb-6"
         >
-          Sign me up for the waitlist
+          Sign me up for the waitlist-1
         </button>
       </div>
       <SubscribeModal isOpen={isModalOpen} onClose={closeModal} />

@@ -26,6 +26,15 @@ const MainHero = () => {
           {mainHero.description}
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div className="space-y-4">
+          <div className="rounded-md shadow">
+            <button
+              onClick={() => window.open(mainHero.secondaryAction.href, "_blank")}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10`}
+            >
+              {mainHero.secondaryAction.text}
+            </button>
+          </div>
           <div className="rounded-md shadow">
             <button
               onClick={openModal}
@@ -33,6 +42,7 @@ const MainHero = () => {
             >
               {mainHero.primaryAction.text}
             </button>
+          </div>
           </div>
         </div>
         <SubscribeModal isOpen={isModalOpen} onClose={closeModal} />

@@ -10,6 +10,10 @@
     "primaryAction": {
       "text": "Sign me up for the waitlist",
       "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Apply here",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdQe1sZwda1dOiiU884Rm1vvkyPVmNVhE31OslVRfcHqfMdqg/viewform"
     }
   },
   "product": {
